@@ -1,0 +1,58 @@
+.NavContainer{
+    margin-top: 2rem;
+    background: rgba(0,0,0,.44);
+    display:flex;
+}
+
+.LinkList{
+    list-style-type:none;
+    display: inline-flex;
+    width:100%;
+}
+
+@media(max-width:800px){
+    li{
+        font-size: small;
+    }
+}
+@media(min-width:1500px){
+    li{
+        font-size: x-large;
+    }
+    .link1{
+        flex:1;
+        margin-right: 4px;
+    }
+    .link2{
+        flex:1;
+    }
+    .link3{
+        flex:8;
+       
+    }
+}
+
+.link1{
+    flex:2;
+    margin-right: 4px;
+}
+.link2{
+    flex:2;
+}
+.link3{
+    display: flex;
+    flex:8;
+    justify-content: right;
+    margin-right: 3rem;
+}
+
+.link{
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    text-shadow: 3px 2px rgba(2, 2, 2, 0.375);
+    
+}
+
+a{
+    color:beige    
+}

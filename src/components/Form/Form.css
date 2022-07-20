@@ -1,0 +1,8 @@
+.containerForm{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 20rem; */
+    flex-direction: column;
+}
+

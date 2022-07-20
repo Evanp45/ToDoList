@@ -1,0 +1,18 @@
+.boxContainerMeta{
+    display: flex;
+    justify-content: center;
+}
+
+.boxContainer{
+    display: flex;
+    width: 50%;
+    
+    flex-direction: column;
+}
+.h1Title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    margin: 32px 0;
+    color: #fff;
+    font-size: 24px;
+}
